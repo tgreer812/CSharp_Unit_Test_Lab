@@ -1,33 +1,39 @@
 {
   "format": 1,
   "restore": {
-    "/home/runner/work/CSharp_Unit_Test_Lab/CSharp_Unit_Test_Lab/LabUnitTesting/BusinessLogic.Tests/BusinessLogic.Tests.csproj": {}
+    "C:\\Users\\tgree\\source\\repos\\CSharp_Unit_Test_Lab\\LabUnitTesting\\BusinessLogic.Tests\\BusinessLogic.Tests.csproj": {}
   },
   "projects": {
-    "/home/runner/work/CSharp_Unit_Test_Lab/CSharp_Unit_Test_Lab/LabUnitTesting/BusinessLogic.Tests/BusinessLogic.Tests.csproj": {
+    "C:\\Users\\tgree\\source\\repos\\CSharp_Unit_Test_Lab\\LabUnitTesting\\BusinessLogic.Tests\\BusinessLogic.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/runner/work/CSharp_Unit_Test_Lab/CSharp_Unit_Test_Lab/LabUnitTesting/BusinessLogic.Tests/BusinessLogic.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\tgree\\source\\repos\\CSharp_Unit_Test_Lab\\LabUnitTesting\\BusinessLogic.Tests\\BusinessLogic.Tests.csproj",
         "projectName": "BusinessLogic.Tests",
-        "projectPath": "/home/runner/work/CSharp_Unit_Test_Lab/CSharp_Unit_Test_Lab/LabUnitTesting/BusinessLogic.Tests/BusinessLogic.Tests.csproj",
-        "packagesPath": "/home/runner/.nuget/packages/",
-        "outputPath": "/home/runner/work/CSharp_Unit_Test_Lab/CSharp_Unit_Test_Lab/LabUnitTesting/BusinessLogic.Tests/obj/",
+        "projectPath": "C:\\Users\\tgree\\source\\repos\\CSharp_Unit_Test_Lab\\LabUnitTesting\\BusinessLogic.Tests\\BusinessLogic.Tests.csproj",
+        "packagesPath": "C:\\Users\\tgree\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tgree\\source\\repos\\CSharp_Unit_Test_Lab\\LabUnitTesting\\BusinessLogic.Tests\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/runner/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\tgree\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "/home/runner/work/CSharp_Unit_Test_Lab/CSharp_Unit_Test_Lab/LabUnitTesting/BusinessLogic/BusinessLogic.csproj": {
-                "projectPath": "/home/runner/work/CSharp_Unit_Test_Lab/CSharp_Unit_Test_Lab/LabUnitTesting/BusinessLogic/BusinessLogic.csproj"
+              "C:\\Users\\tgree\\source\\repos\\CSharp_Unit_Test_Lab\\LabUnitTesting\\BusinessLogic\\BusinessLogic.csproj": {
+                "projectPath": "C:\\Users\\tgree\\source\\repos\\CSharp_Unit_Test_Lab\\LabUnitTesting\\BusinessLogic\\BusinessLogic.csproj"
               }
             }
           }
@@ -36,6 +42,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -71,26 +82,32 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "/home/runner/work/CSharp_Unit_Test_Lab/CSharp_Unit_Test_Lab/LabUnitTesting/BusinessLogic/BusinessLogic.csproj": {
+    "C:\\Users\\tgree\\source\\repos\\CSharp_Unit_Test_Lab\\LabUnitTesting\\BusinessLogic\\BusinessLogic.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/runner/work/CSharp_Unit_Test_Lab/CSharp_Unit_Test_Lab/LabUnitTesting/BusinessLogic/BusinessLogic.csproj",
+        "projectUniqueName": "C:\\Users\\tgree\\source\\repos\\CSharp_Unit_Test_Lab\\LabUnitTesting\\BusinessLogic\\BusinessLogic.csproj",
         "projectName": "BusinessLogic",
-        "projectPath": "/home/runner/work/CSharp_Unit_Test_Lab/CSharp_Unit_Test_Lab/LabUnitTesting/BusinessLogic/BusinessLogic.csproj",
-        "packagesPath": "/home/runner/.nuget/packages/",
-        "outputPath": "/home/runner/work/CSharp_Unit_Test_Lab/CSharp_Unit_Test_Lab/LabUnitTesting/BusinessLogic/obj/",
+        "projectPath": "C:\\Users\\tgree\\source\\repos\\CSharp_Unit_Test_Lab\\LabUnitTesting\\BusinessLogic\\BusinessLogic.csproj",
+        "packagesPath": "C:\\Users\\tgree\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\tgree\\source\\repos\\CSharp_Unit_Test_Lab\\LabUnitTesting\\BusinessLogic\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/runner/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\tgree\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -103,6 +120,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -124,7 +146,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/8.0.116/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.300/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

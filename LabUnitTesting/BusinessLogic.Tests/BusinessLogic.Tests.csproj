@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Test.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <IsPackable>false</IsPackable>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MSTest.TestAdapter" Version="3.3.2" />
+    <PackageReference Include="MSTest.TestFramework" Version="3.3.2" />
+    <PackageReference Include="Moq" Version="4.20.70" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogic\BusinessLogic.csproj" />
+  </ItemGroup>
+</Project>

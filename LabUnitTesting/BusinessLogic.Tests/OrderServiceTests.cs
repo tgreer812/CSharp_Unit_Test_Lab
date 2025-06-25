@@ -1,22 +1,23 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using BusinessLogic;
 
-namespace BusinessLogic.Tests;
-
-[TestClass]
-public class OrderServiceTests
+namespace BusinessLogic.Tests
 {
-    [TestMethod]
-    public void AddItem_ShouldIncreaseSubtotal()
+
+    [TestClass]
+    public class OrderServiceTests
     {
-        // Arrange
-        var svc = new OrderService();
+        [TestMethod]
+        public void AddItem_ShouldIncreaseSubtotal()
+        {
+            // Arrange
+            OrderService orderService = new OrderService();
 
-        // Act
-        svc.AddItem("ABC", 2, 10m);
-        var subtotal = svc.CalculateSubtotal();
+            // Act
+            orderService.AddItem("sku1", 3, 10.0);
 
-        // Assert
-        Assert.AreEqual(20m, subtotal);
+            // Assert
+            Assert.AreEqual<double>(30.0, orderService.CalculateSubtotal());
+        }
     }
 }

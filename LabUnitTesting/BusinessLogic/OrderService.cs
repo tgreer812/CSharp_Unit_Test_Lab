@@ -1,3 +1,5 @@
+
+
 namespace BusinessLogic
 {
 
@@ -6,14 +8,17 @@ namespace BusinessLogic
         ValueTask<int> GetAvailableAsync(string sku, CancellationToken ct = default);
     }
 
+
     public interface IClock
     {
         DateTime UtcNow { get; }
     }
 
+    
     public class OrderService
     {
-        private readonly List<(string sku, int qty, double price)> _items = [];
+        private List<(string sku, int qty, double price)> _items = new List<(string sku, int qty, double price)>();
+        internal IReadOnlyList<(string sku, int qty, double price)> Items => _items;
         private readonly IInventoryClient? _inventory;
         private readonly IClock? _clock;
 
@@ -56,7 +61,7 @@ namespace BusinessLogic
             var subtotal = CalculateSubtotal();
             return subtotal switch
             {
-                >= 1000 => subtotal * 0.90,
+                >= 1000 => subtotal * 0.9,
                 >= 500 => subtotal * 0.95,
                 _ => subtotal
             };
